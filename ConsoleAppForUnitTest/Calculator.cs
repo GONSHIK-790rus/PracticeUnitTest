@@ -46,7 +46,7 @@ namespace ConsoleAppForUnitTest {
     //      может возникнуть неточность в вычислениях.
     // Упрощенная версия калькулятора сделана исключительно для практики по модульному тестированию
     //
-    internal class Calculator {
+    public class Calculator {
         //
         // Метод который складывает два числа и возвращает результат
         public int Sum(int firstSummand, int secondSummand) {
@@ -73,8 +73,9 @@ namespace ConsoleAppForUnitTest {
 
         //
         // Метод который делить первое число на второе и возвращает остаток
+        // !!! Ошибка в реализации намеренная для отработки unit-test'ов !!!
         public int Remainder(int divisible, int divider) {
-            return divisible % divider;
+            return divisible / divider;
         }
     }
 }

@@ -19,3 +19,6 @@ C:\Users\Redmi\source\repos\ConsoleAppForUnitTest\UnitTestFor_ConsoleAppForUnitT
 C:\Users\Redmi\source\repos\ConsoleAppForUnitTest\UnitTestFor_ConsoleAppForUnitTest\obj\Debug\UnitTestFor_ConsoleAppForUnitTest.csproj.CopyComplete
 C:\Users\Redmi\source\repos\ConsoleAppForUnitTest\UnitTestFor_ConsoleAppForUnitTest\obj\Debug\UnitTestFor_ConsoleAppForUnitTest.dll
 C:\Users\Redmi\source\repos\ConsoleAppForUnitTest\UnitTestFor_ConsoleAppForUnitTest\obj\Debug\UnitTestFor_ConsoleAppForUnitTest.pdb
+C:\Users\Redmi\source\repos\ConsoleAppForUnitTest\UnitTestFor_ConsoleAppForUnitTest\bin\Debug\ConsoleAppForUnitTest.exe
+C:\Users\Redmi\source\repos\ConsoleAppForUnitTest\UnitTestFor_ConsoleAppForUnitTest\bin\Debug\ConsoleAppForUnitTest.pdb
+C:\Users\Redmi\source\repos\ConsoleAppForUnitTest\UnitTestFor_ConsoleAppForUnitTest\bin\Debug\ConsoleAppForUnitTest.exe.config
