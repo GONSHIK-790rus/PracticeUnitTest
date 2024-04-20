@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace ConsoleAppForUnitTest {
     internal class Program {
         static void Main() {
-
+            Console.WriteLine("Добро пожаловать в калькулятор.");
+            Console.WriteLine("");
         }
     }
 }
