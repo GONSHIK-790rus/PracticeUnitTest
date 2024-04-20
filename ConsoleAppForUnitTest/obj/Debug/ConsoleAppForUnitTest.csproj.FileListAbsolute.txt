@@ -1,0 +1,8 @@
+C:\Users\Redmi\source\repos\ConsoleAppForUnitTest\ConsoleAppForUnitTest\bin\Debug\ConsoleAppForUnitTest.exe.config
+C:\Users\Redmi\source\repos\ConsoleAppForUnitTest\ConsoleAppForUnitTest\bin\Debug\ConsoleAppForUnitTest.exe
+C:\Users\Redmi\source\repos\ConsoleAppForUnitTest\ConsoleAppForUnitTest\bin\Debug\ConsoleAppForUnitTest.pdb
+C:\Users\Redmi\source\repos\ConsoleAppForUnitTest\ConsoleAppForUnitTest\obj\Debug\ConsoleAppForUnitTest.csproj.AssemblyReference.cache
+C:\Users\Redmi\source\repos\ConsoleAppForUnitTest\ConsoleAppForUnitTest\obj\Debug\ConsoleAppForUnitTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\Redmi\source\repos\ConsoleAppForUnitTest\ConsoleAppForUnitTest\obj\Debug\ConsoleAppForUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\Redmi\source\repos\ConsoleAppForUnitTest\ConsoleAppForUnitTest\obj\Debug\ConsoleAppForUnitTest.exe
+C:\Users\Redmi\source\repos\ConsoleAppForUnitTest\ConsoleAppForUnitTest\obj\Debug\ConsoleAppForUnitTest.pdb
