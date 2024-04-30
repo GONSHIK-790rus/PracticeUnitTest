@@ -1,1 +1,26 @@
-[![](https://mermaid.ink/img/pako:eNp1ks9Kw0AQxl9l2asF772aSw-KqCfJZZts62KSLZvNQUrBVtGD0KoIioiiB89RWlqsTV9h9o2cTf-lQg9Jdr6Z_WZ-YZrUkz6nZeoFLI4dweqKhW6UR2RfSRs23Yhs7bDASwKmpSLe8mgTh1qJqE7gFvrmHAambUURaVITKtZ7SVjlaiHF3JORv65Vk5obtRYtV22aRfM7GJsu9CEriq8whZFpQwoTGMHAphzuiZAFBD5hgGpacHZ4XXG-5voEv6ZXFD7w1hgZLiGDyQa4peGBlDq3qyBFxbEneMbrI9vadEgxyJNv6DrEia_w6cEjzv2DzxDSDXzvyJchXwZfBF9TtEtNx9ys1ZhOLl6Y9izhMM2PRMgJPNgEpNtwb0efoS6H3zzMf6SXnKBbmJEsKpAws4zm2v4abPZtAbAHLdGQq5AJHzfLGhKX6hMecpeW8egzdepSrMQ6lmh5eBZ5tKxVwks0afhIMF9EWq6xIEa1waJjKVcx9wWuyO58de2n9QcqJVls?type=png)](https://mermaid.live/edit#pako:eNp1ks9Kw0AQxl9l2asF772aSw-KqCfJZZts62KSLZvNQUrBVtGD0KoIioiiB89RWlqsTV9h9o2cTf-lQg9Jdr6Z_WZ-YZrUkz6nZeoFLI4dweqKhW6UR2RfSRs23Yhs7bDASwKmpSLe8mgTh1qJqE7gFvrmHAambUURaVITKtZ7SVjlaiHF3JORv65Vk5obtRYtV22aRfM7GJsu9CEriq8whZFpQwoTGMHAphzuiZAFBD5hgGpacHZ4XXG-5voEv6ZXFD7w1hgZLiGDyQa4peGBlDq3qyBFxbEneMbrI9vadEgxyJNv6DrEia_w6cEjzv2DzxDSDXzvyJchXwZfBF9TtEtNx9ys1ZhOLl6Y9izhMM2PRMgJPNgEpNtwb0efoS6H3zzMf6SXnKBbmJEsKpAws4zm2v4abPZtAbAHLdGQq5AJHzfLGhKX6hMecpeW8egzdepSrMQ6lmh5eBZ5tKxVwks0afhIMF9EWq6xIEa1waJjKVcx9wWuyO58de2n9QcqJVls)
+```mermaid
+## Mermaid диаграммы классов
+classDiagram
+class Program{
+ +Calculator calculator
+ +int firstNumber
+ +int secondNumber
+ +int buf
+}
+class Calculator{
+ +int Sum(firstSummand, secondSummand)
+ +int Subtract(diminutive, subtrahend)
+ +int Multiply(firstMultiplier, secondMultiplier)
+ +int Divide(divisible, divider)
+ +int Remainder(divisible, divider)
+}
+class Degree{
+ +int Power(number, degree)
+}
+class Root{
+ +double Sqrt(number)
+}
+Calculator <.. Program
+Degree <.. Program
+Root <.. Program
+```
