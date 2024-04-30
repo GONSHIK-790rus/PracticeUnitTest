@@ -68,6 +68,8 @@ namespace ConsoleAppForUnitTest {
         //
         // Метод который делит первое число на второе и возвращает результат
         public int Divide(int divisible, int divider) {
+            if (divider == 0)
+                return 0;
             return divisible / divider;
         }
 
@@ -75,6 +77,8 @@ namespace ConsoleAppForUnitTest {
         // Метод который делить первое число на второе и возвращает остаток
         // !!! Ошибка в реализации намеренная для отработки unit-test'ов !!!
         public int Remainder(int divisible, int divider) {
+            if (divider == 0)
+                return 0;
             return divisible / divider;
         }
     }

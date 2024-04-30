@@ -1,5 +1,6 @@
 ﻿#region Библиотеки
 using System;
+using System.Net;
 #endregion
 
 namespace ConsoleAppForUnitTest {
@@ -32,8 +33,11 @@ namespace ConsoleAppForUnitTest {
             Console.WriteLine($"3 - Умножить ({firstNumber} x {secondNumber})");
             Console.WriteLine($"4 - Делить ({firstNumber} / {secondNumber})");
             Console.WriteLine($"5 - Найти остаток от деления ({firstNumber} / {secondNumber})");
-            Console.WriteLine($"6 - Поменять числа местами ({secondNumber} и {firstNumber})");
-            Console.WriteLine($"7 - Ввести новые числа");
+            Console.WriteLine($"6 - Возвести число {firstNumber} в степень {secondNumber}");
+            Console.WriteLine($"7 - Найти корень числа {firstNumber}");
+            Console.WriteLine($"8 - Поменять числа местами ({secondNumber} и {firstNumber})");
+            Console.WriteLine($"9 - Ввести новые числа");
+            Console.WriteLine($"0 - Выйти из программы");
             #endregion
             switch (Console.ReadKey().Key) {
                 case ConsoleKey.D1:
@@ -62,6 +66,16 @@ namespace ConsoleAppForUnitTest {
                     break;
 
                 case ConsoleKey.D6:
+                    Console.WriteLine();
+                    Console.WriteLine($"Результат вычислений = {Degree.Power(firstNumber, secondNumber)}");
+                    break;
+                    
+                case ConsoleKey.D7:
+                    Console.WriteLine();
+                    Console.WriteLine($"Результат вычислений = {Root.Sqrt(firstNumber)}");
+                    break;
+
+                case ConsoleKey.D8:
                     // Будем откровенны: я вообще не заморачивался :D
                     buf = firstNumber;
                     firstNumber = secondNumber;
@@ -70,9 +84,13 @@ namespace ConsoleAppForUnitTest {
                     Console.WriteLine("Добро пожаловать в калькулятор.");
                     goto ChooseActionAnchor;
 
-                case ConsoleKey.D7:
+                case ConsoleKey.D9:
                     Console.Clear();
                     goto EnterNumsAnchor;
+
+                case ConsoleKey.D0:
+                    Environment.Exit(0);
+                    break;
 
                 default:
                     goto ChooseActionAnchor;
