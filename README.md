@@ -14,10 +14,10 @@ class Calculator{
  +int Remainder(divisible, divider)
 }
 class Degree{
- +int Power(number, degree)
+ +static int Power(number, degree)
 }
 class Root{
- +double Sqrt(number)
+ +static double Sqrt(number)
 }
 Calculator <.. Program
 Degree <.. Program
