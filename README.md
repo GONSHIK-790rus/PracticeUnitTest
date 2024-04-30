@@ -1,5 +1,4 @@
 ```mermaid
-## Mermaid диаграммы классов
 classDiagram
 class Program{
  +Calculator calculator
